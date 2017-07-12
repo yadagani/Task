@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QuantityRequestMessage xmlns="http://schema.gspt.net/Inventory/3.0">
+    <SourceId type="CHANNEL">TMSUS</SourceId>
+    <QuantityRequestList>
+        <QuantityRequest id="line1">
+            <ItemId>GSI-TEST-001</ItemId>
+        </QuantityRequest>
+        <QuantityRequest id="line2">
+            <ItemId>GSI-TEST-002</ItemId>
+        </QuantityRequest>
+        <QuantityRequest id="line3">
+            <ItemId>GSI-TEST-001</ItemId>
+            <FulfillmentLocationId type="ISPU">Store1</FulfillmentLocationId>
+        </QuantityRequest>
+        <QuantityRequest id="line4">
+            <ItemId>GSI-TEST-004</ItemId>
+            <FulfillmentLocationId type="ISPU">Store1</FulfillmentLocationId>
+        </QuantityRequest>
+        <QuantityRequest id="line4">
+            <ItemId>GSI-TEST-005</ItemId>
+            <FulfillmentLocationId type="ISPU">Store2</FulfillmentLocationId>
+        </QuantityRequest>
+    </QuantityRequestList>
+</QuantityRequestMessage>
